@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Кружкин дом — Кружка керамическая «Тёплый вечер»</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Каталог</a></li>
+      <li><a href="#">Доставка</a></li>
+      <li><a href="#">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <article>
+    <section class="gallery">
+      <figure>
+        <img id="main-photo" src="mug.jpg" alt="Керамическая кружка «Тёплый вечер»">
+        <figcaption>Кружка керамическая «Тёплый вечер», 350 мл</figcaption>
+      </figure>
+      <ul class="thumbs">
+        <li><img class="thumb" src="mug.jpg" alt="Вид 1"></li>
+        <li><img class="thumb" src="mug-2.jpg" alt="Вид 2"></li>
+        <li><img class="thumb" src="mug-3.jpg" alt="Вид 3"></li>
+      </ul>
+    </section>
+
+    <section class="info">
+      <h1>Кружка керамическая «Тёплый вечер»</h1>
+      <p class="price"><span id="price">590</span> руб.</p>
+      <p><strong>Артикул:</strong> <span>KR-1024</span></p>
+      <p>Уютная керамическая кружка ручной росписи. Держит тепло напитка до 40 минут,
+      подходит для посудомоечной машины и микроволновой печи.</p>
+
+      <h2>Характеристики</h2>
+      <table>
+        <tr><th>Материал</th><td>Керамика</td></tr>
+        <tr><th>Объём</th><td>350 мл</td></tr>
+        <tr><th>Микроволновая печь</th><td>Да</td></tr>
+        <tr><th>Посудомоечная машина</th><td>Да</td></tr>
+        <tr><th>Вес</th><td>420 г</td></tr>
+      </table>
+
+      <h2>Преимущества</h2>
+      <ol>
+        <li>Ручная роспись — каждый рисунок уникален</li>
+        <li>Плотная керамика держит тепло дольше стекла</li>
+        <li>Гарантия на сколы и трещины — 1 год</li>
+      </ol>
+
+      <form id="order-form">
+        <label for="qty">Количество:</label>
+        <input type="number" id="qty" value="1" min="1" max="99">
+        <label for="color">Цвет:</label>
+        <select id="color">
+          <option>Терракотовый</option>
+          <option>Молочный</option>
+          <option>Шалфейный</option>
+        </select>
+        <label for="comment">Комментарий к заказу:</label>
+        <textarea id="comment" rows="3" placeholder="Пожелания к упаковке, надпись на кружке"></textarea>
+        <button type="submit">Добавить в корзину</button>
+      </form>
+    </section>
+  </article>
+
+  <aside>
+    <h2>Отзыв покупателя</h2>
+    <p>«Кружка просто чудо — краски не облезли и после десятой мойки. Беру вторую в подарок!» — <strong>Марина, Новосибирск</strong></p>
+  </aside>
+</main>
+
+<footer>
+  <p>© 2026 «Кружкин дом». Телефон: 8 (800) 100-20-30. Доставка по всей России.</p>
+</footer>
+</body>
+</html>
